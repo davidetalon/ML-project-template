@@ -30,8 +30,10 @@ A simple and flexible template to structure a Machine Learning project.
 
 # TODO
 - [ ] Implementation of a logger
+- [ ] Implementation of a Run all script for complete reproducibility
 - [ ] Similar to rails to create the project template and associated environment: `project new <project-new>`
-- [] Docker containers for servers?
+- [ ] Docker containers for servers?
+
 
 # License
 This project is licensed under the MIT License. See LICENSE for more details
