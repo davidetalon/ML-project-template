@@ -26,6 +26,7 @@ A simple and flexible template to structure a Machine Learning project.
   ├── requirements.txt          <- requirements for the dedicated environmnet, e.g. pip freeze > requirements.txt
   ├── LICENSE                   <- license details
   └── .gitignore                
+```
 
 # TODO
 - [] Implementation of a logger
@@ -36,4 +37,4 @@ A simple and flexible template to structure a Machine Learning project.
 This project is licensed under the MIT License. See LICENSE for more details
 
 # Acknowledgements
-Thanks to [Cookiecutter Data Science project ](http://drivendata.github.io/cookiecutter-data-science/) and [Pytorch project template](https://github.com/victoresque/pytorch-template)
+Thanks to [Cookiecutter Data Science project ](http://drivendata.github.io/cookiecutter-data-science/), [Pytorch project template](https://github.com/victoresque/pytorch-template) and [Tania Sanchez Monroy's presentation](https://www.youtube.com/watch?v=VAXCrDrAPo0&t=0s&list=PLKI61vXN97_nWdQN23bTRxrg148f0IDr2&index=2).
