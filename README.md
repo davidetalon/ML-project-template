@@ -29,8 +29,8 @@ A simple and flexible template to structure a Machine Learning project.
 ```
 
 # TODO
-- [] Implementation of a logger
-- [] Similar to rails to create the project template and associated environment: `project new <project-new>`
+- [ ] Implementation of a logger
+- [ ] Similar to rails to create the project template and associated environment: `project new <project-new>`
 - [] Docker containers for servers?
 
 # License
