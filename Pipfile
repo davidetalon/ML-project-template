@@ -1,0 +1,19 @@
+  GNU nano 4.8                                     Pipfile                                               
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pytorch-lightning = "*"
+torchvision = "*"
+
+[dev-packages]
+black = "*"
+isort = "*"
+mypy = "*"
+flake8 = "*"
+pre-commit = "*"
+
+[requires]
+python_version = "3.8"

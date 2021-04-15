@@ -13,7 +13,6 @@ A simple and flexible template to structure a Machine Learning project.
   │   └── models/               <- Checkpoints and final models
   │
   ├── src/
-  │   ├── logger/               <- Source code for logging
   │   ├── model/                <- Source code for your own model
   │   └── scripts/
   │   │    ├── data/            <- scripts and programs to process data
@@ -23,13 +22,22 @@ A simple and flexible template to structure a Machine Learning project.
   │   └── utils/                <- Helpers and utilities used
   │
   ├── README.md                 <- description and how to use the project
-  ├── requirements.txt          <- requirements for the dedicated environmnet, e.g. pip freeze > requirements.txt
+  ├── Pipfile                   <- requirements for the dedicated environmnet
+  ├── .pre-commit-config.yaml   <- configuration of pre-commit
   ├── LICENSE                   <- license details
   └── .gitignore                
 ```
 
+# Project creation
+
+```
+pipenv install
+pre-commit install
+pipenv shell
+pipenv -e . # install the project as editable
+```
+
 # TODO
-- [ ] Implementation of a logger
 - [ ] Implementation of a Run all script for complete reproducibility
 - [ ] Similar to rails to create the project template and associated environment: `project new <project-new>`
 - [ ] Docker containers for servers?
