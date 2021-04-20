@@ -129,9 +129,10 @@ dmypy.json
 .pyre/
 
 # data
-# data/*
-# !data/.gitkeep
+data/*
+!data/processed/.gitkeep
+!data/raw/.gitkeep
 
 # saved
-# saved/*
-# !saved/.gitkeep
+saved/*
+!saved/.gitkeep
